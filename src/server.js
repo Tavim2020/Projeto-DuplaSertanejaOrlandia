@@ -82,5 +82,5 @@ console.log(err);
 
     res.redirect('/')
 })
-
-server.listen(3200);
+var porta = process.env.PORT || 3200;
+server.listen(porta);
