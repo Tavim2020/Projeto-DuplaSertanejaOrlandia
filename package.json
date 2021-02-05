@@ -4,13 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "run": "src/server.js"
+    "build run": "src/server.js"
   },
   "author": "Otávio Dos Snatos Lopes",
   "license": "ISC",
   "dependencies": {
     "animate.css": "^4.1.1",
     "express": "^4.17.1",
+    "netlify-cli": "^3.5.0",
     "nodemailer": "^6.4.17"
   },
   "devDependencies": {
