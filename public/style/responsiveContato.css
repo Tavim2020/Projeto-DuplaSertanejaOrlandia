@@ -1,0 +1,435 @@
+@media only screen and (max-width: 900px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    :root{
+        --white: #fff;
+        --black: #000;
+        --background-body: rgb(80, 80, 80);   
+        --center-background: #FFFCE8;
+        --footer-background: #8A817C;
+        --red-button: #D64550;
+        --validation-color: #7BB2D9;
+    }
+
+    body{
+        margin: 0 auto;
+        width: 900px;
+    }
+    
+    main{
+        width: 900px;
+    }
+    
+    body main .container-top{
+        width: 900px;
+        height: 300px;
+        background-color: var(--footer-background);
+    }
+    
+    .img-header{
+        margin-top: 30px;
+    }
+    
+    .img-header img{
+        width: 150px;
+    }
+
+    .hidden{
+        display: none;
+    }
+    
+    .menu nav{
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .menu-animate{
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .violaoIcon img{
+        width: 70px;
+    }
+    
+    
+    .menu nav li a{
+        color: var(--white);
+        font-size: 32px;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    /* container central */
+
+    .container-center{
+        width: 900px;
+        height: 2100px;
+        background-image: url(/images/sertanejo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .head-form{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .head-form h2{
+        font-size: 67px;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 400;
+        margin-bottom: 100px;
+        color: #fff;
+    }
+    
+    .formulario-image{
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    form{
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form label{
+        width: 100%;
+        font-size: 60px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    form input{
+        width: 100%;
+        height: 90px;
+        border-radius: 8px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-bottom: 30px;
+        padding: 5px 14px 5px 14px;
+        font-size: 50px;
+    }
+    
+    form textarea{
+        margin-top: 30px;
+        width: 100%;
+        max-width: 100%;
+        max-height: 400px;
+        min-width: 500px;
+        min-height: 300px;
+        font-size: 60px;
+        line-height: 80px;
+        padding: 5px 14px 5px 14px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    
+    form button{
+        width: 400px;
+        height: 100px;
+        margin-top: 100px;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 47px;
+        background-color: var(--red-button);
+        transition: 0.5s;
+    }
+    
+    
+    /* imagem ao lado do formulário */
+    
+    .imagem{
+       display: none;
+    }
+    
+    
+
+     /* footer */
+     footer{
+        width: 900px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--footer-background);
+        justify-content: center;
+    }
+
+    .container-top-footer{
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-top-footer .text-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .container-top-footer .text-footer .container-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-top-footer .text-footer .h3{
+        font-size: 42px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .container-top-footer .text-footer .container-left .contato-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .container-top-footer .text-footer .container-left .h3{
+        font-size: 42px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .container-top-footer .text-footer .contato-footer h4{
+        font-size: 42px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-top: 50px;
+    }
+
+
+
+    .container-top-footer .text-footer .container-left .contato-footer img{
+        width: 150px;
+        transition: 1s;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+
+    .container-top-footer .text-footer .container-left .contato-footer img:hover{
+        width: 170px;
+    }
+
+    .icons-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons-footer img{
+        width: 60px;
+        margin-top: 50px;
+        border-radius: 9px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+
+    footer .container-top-footer .text-footer .remove{
+        display: none;
+    }
+    .remove{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 901px){
+.container-top-footer .text-footer .contato-footer h4{
+    display: none;
+    }
+
+    .clean{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1381px){
+    body{
+        width: 100vw;
+    }
+    
+    main{
+        width: 100vw;
+    }
+    
+    body main .container-top{
+        width: 100vw;
+        height: 100%;
+    }
+    
+    
+    .img-header{
+        margin-top: 1.2vw;
+    }
+    
+    .img-header img{
+        width: 8vw;
+        margin-bottom: 1.2vw;
+    }
+    
+    .img-header img:hover{
+        width: 8.8vw;
+    }
+    
+    
+    .menu-animate{
+        margin-right: 3.2vw;
+    }
+    
+    .violaoIcon img{
+        width: 3.2vw;
+    }
+    
+    
+    .menu nav li a{
+        font-size: 1.5vw;
+    }
+    
+    
+    /* container central */
+    
+    .container-center{
+        width: 100vw;
+        height: 74vw;
+    }
+    
+    .head-form{
+        margin-top: 3.2vw;
+    }
+    
+    .head-form h2{
+        font-size: 2.9vw;
+        margin-bottom: 3.2vw;
+    }
+    
+    form{
+        width: 30vw;
+        align-items: center;
+    }
+    
+    form label{
+        font-size: 2.4vw;
+        margin-bottom: 0.8vw;
+    }
+    
+    form input{
+        height: 3.2vw;
+        border-radius: 0.7vw;
+        border-top-left-radius: 0.7vw;
+        border-top-right-radius: 0.7vw;
+        border-bottom-left-radius: 0.7vw;
+        border-bottom-right-radius: 0.7vw;
+        margin-bottom: 0.8vw;
+        padding: 0.4vw 0.7vw 0.4vw 0.7vw;
+        font-size: 1.6vw;
+    }
+    
+    form textarea{
+        margin-top: 2.4vw;
+        max-width: 32vw;
+        max-height: 12vw;
+        min-width: 16vw;
+        min-height: 6vw;
+        font-size: 1.6vw;
+        line-height: 2.4vw;
+        padding: 0.4vw 0.7vw 0.4vw 0.7vw;
+        border-top-left-radius: 0.7vw;
+        border-top-right-radius: 0.7vw;
+        border-bottom-left-radius: 0.7vw;
+        border-bottom-right-radius: 0.7vw;
+    }
+    
+    form button{
+        font-size: 1.4vw;
+        margin-top: 2.4vw;
+        padding: 0.8vw 1.3vw;
+    }
+    
+    
+    /* imagem ao lado do formulário */
+    
+    .imagem{
+        width: 52vw;
+        height: 52vw;
+    }
+    
+    .background-image{
+        width: 52vw;
+        height: 52vw;
+    }
+    
+    
+    .imagem .background-image .image-center{
+        width: 48vw;   
+        height: 48vw;
+    }
+    
+    /* footer */
+    footer{
+        width: 100vw;
+        height: 18.5vw;
+        display: flex;
+    }
+    
+    .container-top-footer .text-footer .h3{
+        font-size: 2.4vw;
+        margin-bottom: 0.8vw;
+    }
+    
+    
+    .container-top-footer .text-footer .contato-footer img{
+        width: 6.4vw;
+    }
+    
+    .container-top-footer .text-footer .contato-footer img:hover{
+        width: 8vw;
+    }
+
+    .icons-footer img{
+        width: 2.4vw;
+        margin-top: 2.4vw;
+        border-radius: 0.8vw;
+        margin-right: 2.4vw;
+        margin-bottom: 2.4vw;
+    }
+
+}

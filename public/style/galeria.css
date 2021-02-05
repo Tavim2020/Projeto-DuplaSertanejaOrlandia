@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --white: #fff;
+    --black: #000;
+    --background-body: rgb(80, 80, 80);   
+    --center-background: #FFFCE8;
+    --footer-background: #8A817C;
+    --red-button: #D64550;
+    --validation-color: #7BB2D9;
+}
+
+body{
+    margin: 0 auto;
+    width: 1380px;
+}
+
+main{
+    width: 1380px;
+}
+
+body main .container-top{
+    width: 1380px;
+    height: 200px;
+    background-color: var(--footer-background);
+    position: relative;
+}
+
+header{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-header{
+    margin-top: 15px;
+}
+
+.img-header img{
+    width: 100px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.img-header img:hover{
+    width: 110px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.menu nav{
+    display: flex;
+    align-items: baseline;
+}
+
+.menu-animate{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.violaoIcon img{
+    width: 40px;
+}
+
+
+.menu nav li{
+    list-style: none;
+}
+
+.menu nav li a{
+    color: var(--white);
+    font-size: 19px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.menu nav .menu-animate:nth-child(3) li a{
+    color: var(--black);
+}
+
+
+/* container central */
+
+.container-center{
+    width: 1380px;
+    height: 1730px;
+    background-image: url(/images/sertanejo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.backText{
+    position: absolute;
+    z-index: 2;
+}
+
+.one-text{
+    font-size: 50px;
+    top: 1.4%;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #fff;
+    transform: rotateZ(30deg);
+}
+
+.two-text{
+    width: 203px;
+    font-size: 35px;
+    top: 30%;
+    font-family: 'Hanalei', cursive;
+    color: #fff;
+}
+
+
+.tree-text{
+    font-size: 25px;
+    top: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    transform: rotateZ(-45deg);
+}
+
+.four-text{
+    width: 300px;
+    font-size: 55px;
+    top: 88%;
+    font-family: 'Sacramento', cursive;
+    color: #fff;
+}
+
+.five-text{
+    font-size: 38px;
+    top: 10%;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+.six-text{
+    font-size: 44px;
+    right: 10%;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #fff;
+    transform: rotateZ(90deg);
+}
+
+.seven-text{
+    font-size: 25px;
+    font-family: 'Hanalei', cursive;
+    color: #fff;
+}
+
+.eight-text{
+    width: 200px;
+    font-size: 15px;
+    top: 60%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+}
+
+
+.galeria{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.galeria h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 47px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.galeria h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #575252;
+}
+
+.fotos{
+    width: 100%;
+    height: 1200px;
+    background-image: url(/images/quadros.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.fotos img{
+    z-index: 5;
+}
+
+#one{
+    width: 273px;
+    height: 194px;
+    position: absolute;
+    top: 1.05%;
+    left: 38.1%;
+}
+#two{
+    width: 153.2px;
+    height: 217.5px;
+    position: absolute;
+    top: 35.9%;
+    left: 0.67%;
+    object-fit: cover;
+    object-position: 40%;
+}
+
+#tree{
+    width: 254.6px;
+    height: 369.25px;
+    position: absolute;
+    top: 21.955%;
+    left: 38.8%;
+}
+
+#four{
+    width: 276.38px;
+    height: 192.8px;
+    position: absolute;
+    top: 57.57%;
+    left: 37.75%;
+}
+
+#five{
+    width: 153.19px;
+    height: 216px;
+    position: absolute;
+    top: 35.9%;
+    left: 86.85%;
+    object-fit: cover;
+    object-position: 40%;
+}
+
+#six{
+    width: 193.7px;
+    height: 272.79px;
+    position: absolute;
+    object-fit: cover;
+    top: 33.955%;
+    left: 18.4%;
+}
+
+#seven{
+    width: 220.8px;
+    height: 154.5px;
+    position: absolute;
+    object-fit: cover;
+    top: 77.5%;
+    left: 40%;
+}
+
+#eight{
+    width: 150.25px;
+    height: 216px;
+    position: absolute;
+    top: 10.04%;
+    left: 66.8%;
+    object-fit: cover;
+    object-position: 40%;
+}
+
+#nine{
+    width: 191.5px;
+    height: 272.79px;
+    position: absolute;
+    object-fit: cover;
+    top: 33.89%;
+    left: 65.25%;
+}
+
+#ten{
+    width: 153.8px;
+    height: 217.7px;
+    position: absolute;
+    object-fit: cover;
+    top: 11.2%;
+    left: 19.98%;
+}
+
+#eleven{
+    width: 153.45px;
+    height: 214.7px;
+    position: absolute;
+    top: 61.75%;
+    left: 66.539%;
+    object-fit: cover;
+    object-position: 40%;
+}
+
+#twelve{
+    width: 148.3px;
+    height: 216.9px;
+    position: absolute;
+    object-fit: cover;
+    top: 60.47%;
+    left: 20.4%;
+}
+
+
+
+/* footer */
+footer{
+    width: 1380px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--footer-background);
+    justify-content: center;
+}
+
+.container-top-footer{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.container-top-footer .text-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-top-footer .text-footer .container-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-top-footer .text-footer .h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.container-top-footer .text-footer .contato-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-top-footer .text-footer .contato-footer img{
+    width: 80px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.container-top-footer .text-footer .contato-footer img:hover{
+    width: 100px;
+}
+
+.icons-footer{
+    display: flex;
+    align-items: center;
+}
+
+.icons-footer img{
+    width: 30px;
+    margin-top: 30px;
+    border-radius: 9px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+

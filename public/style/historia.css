@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --white: #fff;
+    --black: #000;
+    --background-body: rgb(80, 80, 80);   
+    --center-background: #FFFCE8;
+    --footer-background: #8A817C;
+    --red-button: #D64550;
+    --validation-color: #7BB2D9;
+}
+
+body{
+    margin: 0 auto;
+    width: 1380px;
+    max-height: 1360px;
+}
+
+main{
+    width: 1380px;
+}
+
+body main .container-top{
+    width: 1380px;
+    height: 200px;
+    background-color: var(--footer-background);
+}
+
+header{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-header{
+    margin-top: 15px;
+}
+
+.img-header img{
+    width: 100px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.img-header img:hover{
+    width: 110px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.menu nav{
+    display: flex;
+    align-items: baseline;
+}
+
+.menu-animate{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.violaoIcon img{
+    width: 40px;
+}
+
+
+.menu nav li{
+    list-style: none;
+}
+
+.menu nav li a{
+    color: var(--white);
+    font-size: 19px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.menu nav .menu-animate:nth-child(1) li a{
+    color: var(--black);
+}
+
+
+/* container-center */
+.container-center{
+    width: 1380px;
+    height: 1950px;
+    background-image: url(/images/sertanejo.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-history-top{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.a-dupla{
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.a-dupla h2{
+    font-size: 35px;
+    font-weight:bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: var(--white);
+}
+
+.text-and-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text-and-image img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 65%;
+    margin-right: 40px;
+    transform: rotateZ(-10deg);
+}
+
+.text-and-image p{
+    font-size: 25px;
+    flex: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
+    color: var(--white);
+}
+
+
+/* container-center-one */
+.container-center-one{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.leo{
+    margin-bottom: 40px;
+    height: 100%;
+}
+
+.leo h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: var(--white);
+}
+
+.text-and-image-leo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text-and-image-leo p{
+    font-size: 25px;
+    flex: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
+    color: var(--white);
+}
+
+
+.container-center-one figure{
+    height: 100%;
+    position: relative;
+    margin-left: 40px;
+}
+
+.text-and-image-leo figure img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    transform: rotateZ(10deg);
+}
+
+figure figcaption{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+
+/* container-center-two */
+.container-center-two{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.mateus{
+    margin-bottom: 40px;
+    height: 100%;
+}
+
+.mateus h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: var(--white);
+}
+
+.container-center-two figure{
+    height: 100%;
+    position: relative;
+    margin-right: 40px;
+}
+
+.text-and-image-mateus figure img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    transform: rotateZ(-10deg);
+}
+
+.container-center-two .text-and-image-mateus figure figcaption{
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.text-and-image-mateus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-and-image-mateus p{
+    font-size: 25px;
+    flex: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
+    color: var(--white);
+}
+
+/* apoiadores */
+.container-bottom{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.apoiadores{
+    margin-bottom: 40px;
+    height: 100%;
+}
+
+.apoiadores h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: var(--white);
+}
+
+.text-apoiadores{
+    width: 90%;
+    height: 100%;
+    margin-bottom: 35px;
+}
+
+.text-apoiadores p{
+    font-size: 25px;
+    flex: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
+    color: var(--white);
+}
+
+
+/* footer */
+footer{
+    width: 1380px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--footer-background);
+    justify-content: center;
+}
+
+.container-top-footer{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.container-top-footer .text-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-top-footer .text-footer .container-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-top-footer .text-footer .h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.container-top-footer .text-footer .contato-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-top-footer .text-footer .contato-footer img{
+    width: 80px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.container-top-footer .text-footer .contato-footer img:hover{
+    width: 100px;
+}
+
+.icons-footer{
+    display: flex;
+    align-items: center;
+}
+
+.icons-footer img{
+    width: 30px;
+    margin-top: 30px;
+    border-radius: 9px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
