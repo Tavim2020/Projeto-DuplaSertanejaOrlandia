@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "run": "src/server.js"
+    "build": "src/server.js"
   },
   "author": "Otávio Dos Snatos Lopes",
   "license": "ISC",
