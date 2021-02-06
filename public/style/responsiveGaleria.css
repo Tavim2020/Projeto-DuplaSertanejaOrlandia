@@ -221,10 +221,11 @@
         width: 636px;
         height: 405px;
         position: absolute;
-        top: 11.5%;
+        top: 11.48%;
         left: 10.48%;
         object-fit: cover;
         object-position: 40%;
+        z-index: 4;
     }
     
     #tree{
@@ -235,24 +236,27 @@
         left: 10.48%;
         object-fit: cover;
         object-position: top;
+        z-index: 4;
     }
     
     #four{
         width: 636px;
         height: 405px;
         position: absolute;
-        top: 28.17%;
+        top: 28.12%;
         left: 10.48%;
+        z-index: 4;
     }
     
     #five{
         width: 636px;
         height: 405px;
         position: absolute;
-        top: 36.5%;
+        top: 36.448%;
         left: 10.45%;
         object-fit: cover;
         object-position: 40%;
+        z-index: 4;
     }
     
     #six{
@@ -260,10 +264,11 @@
         height: 405px;
         position: absolute;
         object-fit: cover;
-        top: 44.8%;
+        top: 44.769%;
         left: 10.45%;
         object-fit: cover;
         object-position: top;
+        z-index: 4;
     }
     
     #seven{
@@ -271,18 +276,20 @@
         height: 405px;
         position: absolute;
         object-fit: cover;
-        top: 53.15%;
+        top: 53.09%;
         left: 10.45%;
+        z-index: 4;
     }
     
     #eight{
         width: 636px;
         height: 405px;
         position: absolute;
-        top: 61.47%;
+        top: 61.36%;
         left: 10.45%;
         object-fit: cover;
         object-position: 40%;
+        z-index: 4;
     }
     
     #nine{
@@ -290,10 +297,11 @@
         height: 405px;
         position: absolute;
         object-fit: cover;
-        top: 69.8%;
+        top: 69.69%;
         left: 10.45%;
         object-fit: cover;
         object-position: top;
+        z-index: 4;
     }
     
     #ten{
@@ -301,16 +309,17 @@
         height: 405px;
         position: absolute;
         object-fit: cover;
-        top: 78.15%;
+        top: 78.048%;
         left: 10.45%;
+        z-index: 4;
     }
     
     #eleven{
         width: 636px;
         height: 405px;
         position: absolute;
-        top: 86.47%;
-        left: 10.45%;
+        top: 86.36%;
+        left: 10.446%;
         object-fit: cover;
         object-position: 40%;
         z-index: 4;
@@ -321,10 +330,11 @@
         height: 405px;
         position: absolute;
         object-fit: cover;
-        top: 94.8%;
+        top: 94.686%;
         left: 10.45%;
         object-fit: cover;
         object-position: top;
+        z-index: 4;
     }
     
 

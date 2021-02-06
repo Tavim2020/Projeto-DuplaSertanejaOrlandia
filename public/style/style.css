@@ -13,10 +13,14 @@
     --footer-background: #8A817C;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     margin: 0 auto;
     width: 1380px;
-    background-color: #000;;
+    background-color: #000;
 }
 
 main{
