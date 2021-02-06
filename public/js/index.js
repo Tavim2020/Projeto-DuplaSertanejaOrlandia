@@ -395,26 +395,39 @@ containerGeral.addEventListener('wheel', ()=>{
     })
 }
 
-if(window.screen.width <= 900){
-    containerGeral.addEventListener('wheel', ()=>{
+
+function animateScroll(){
+    var windowTop = window.pageYOffset + (window.innerHeight * 3 / 4);
+    var videoTop = video.offsetTop;
+    var h2Top = h2.offsetTop;
+    var pTop = pText.offsetTop;
+    var h3Top = h3.offsetTop;
+    
+
+    if(windowTop > videoTop){
         video.style.opacity = '1';
         video.classList.add("animate__animated");
         video.classList.add('animate__fadeInLeftBig');
+       }
 
         h2.style.opacity = '1';
         h2.classList.add("animate__animated");
         h2.classList.add('animate__fadeInDown');
     
-    
         pText.style.opacity = '1';
         pText.classList.add("animate__animated");
         pText.classList.add('animate__fadeInRight');
-    
-    
+      
         h3.style.opacity = '1';
         h3.classList.add("animate__animated");
         h3.classList.add('animate__bounceInUp');
-    })
 
+}
+
+
+
+if(window.screen.width <= 900){
+    animateScroll();
+    window.addEventListener('scroll', animateScroll)
    
 }
