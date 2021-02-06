@@ -17,17 +17,17 @@
 
 body{
     margin: 0 auto;
-    width: 1380px;
-    max-height: 1360px;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 main{
-    width: 1380px;
+    width: 100vw;
 }
 
 body main .container-top{
-    width: 1380px;
-    height: 200px;
+    width: 100vw;
+    height: 16vw;
     background-color: var(--footer-background);
 }
 
@@ -40,7 +40,7 @@ header{
 }
 
 .img-header{
-    margin-top: 15px;
+    margin-top: 1.2vw;
 }
 
 .img-header img{
@@ -50,7 +50,7 @@ header{
 }
 
 .img-header img:hover{
-    width: 110px;
+    width: 8.8vw;
 }
 
 
@@ -64,13 +64,13 @@ header{
 }
 
 .menu-animate{
-    margin-right: 40px;
+    margin-right: 3.2vw;
     display: flex;
     align-items: center;
 }
 
 .violaoIcon img{
-    width: 40px;
+    width: 3.2vw;
 }
 
 
@@ -80,7 +80,7 @@ header{
 
 .menu nav li a{
     color: var(--white);
-    font-size: 19px;
+    font-size: 1.5vw;
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -91,8 +91,8 @@ header{
 
 /* container-center */
 .container-center{
-    width: 1380px;
-    height: 1950px;
+    width: 100vw;
+    height: 100%;
     background-image: url(/images/sertanejo.jpg);
     background-size: cover;
     background-position: center;
@@ -115,17 +115,17 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
 }
 
 .a-dupla{
     height: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 3.2vw;
+    margin-bottom: 3.2vw;
 }
 
 .a-dupla h2{
-    font-size: 35px;
+    font-size: 2.8vw;
     font-weight:bold;
     font-family: 'Open Sans Condensed', sans-serif;
     color: var(--white);
@@ -139,8 +139,8 @@ header{
 }
 
 .text-and-image img{
-    width: 300px;
-    height: 350px;
+    width: 24.1vw;
+    height: 28.1vw;
     object-fit: cover;
     object-position: 65%;
     margin-right: 40px;
@@ -148,7 +148,7 @@ header{
 }
 
 .text-and-image p{
-    font-size: 25px;
+    font-size: 2vw;
     flex: 1;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 800;
@@ -162,16 +162,16 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
 }
 
 .leo{
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
     height: 100%;
 }
 
 .leo h2{
-    font-size: 35px;
+    font-size: 2.8vw;
     font-weight: bold;
     font-family: 'Open Sans Condensed', sans-serif;
     color: var(--white);
@@ -185,7 +185,7 @@ header{
 }
 
 .text-and-image-leo p{
-    font-size: 25px;
+    font-size: 2vw;
     flex: 1;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 800;
@@ -196,12 +196,12 @@ header{
 .container-center-one figure{
     height: 100%;
     position: relative;
-    margin-left: 40px;
+    margin-left: 3.2vw;
 }
 
 .text-and-image-leo figure img{
-    width: 300px;
-    height: 350px;
+    width: 24.1vw;
+    height: 28.1vw;
     object-fit: cover;
     object-position: top;
     transform: rotateZ(10deg);
@@ -209,7 +209,7 @@ header{
 
 figure figcaption{
     text-align: center;
-    font-size: 30px;
+    font-size: 2.4vw;
     font-family: 'Dancing Script', cursive;
     position: absolute;
     top: 5%;
@@ -224,16 +224,16 @@ figure figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
 }
 
 .mateus{
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
     height: 100%;
 }
 
 .mateus h2{
-    font-size: 35px;
+    font-size: 2.8vw;
     font-weight: bold;
     font-family: 'Open Sans Condensed', sans-serif;
     color: var(--white);
@@ -242,12 +242,12 @@ figure figcaption{
 .container-center-two figure{
     height: 100%;
     position: relative;
-    margin-right: 40px;
+    margin-right: 3.2vw;
 }
 
 .text-and-image-mateus figure img{
-    width: 300px;
-    height: 350px;
+    width: 24.1vw;
+    height: 28.1vw;
     object-fit: cover;
     object-position: top;
     transform: rotateZ(-10deg);
@@ -255,7 +255,7 @@ figure figcaption{
 
 .container-center-two .text-and-image-mateus figure figcaption{
     text-align: right;
-    font-size: 30px;
+    font-size: 2.4vw;
     font-family: 'Dancing Script', cursive;
     position: absolute;
     top: 5%;
@@ -271,7 +271,7 @@ figure figcaption{
 }
 
 .text-and-image-mateus p{
-    font-size: 25px;
+    font-size: 2vw;
     flex: 1;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 800;
@@ -285,16 +285,16 @@ figure figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
 }
 
 .apoiadores{
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
     height: 100%;
 }
 
 .apoiadores h2{
-    font-size: 35px;
+    font-size: 2.8vw;
     font-weight: bold;
     font-family: 'Open Sans Condensed', sans-serif;
     color: var(--white);
@@ -303,11 +303,11 @@ figure figcaption{
 .text-apoiadores{
     width: 90%;
     height: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 2.8vw;
 }
 
 .text-apoiadores p{
-    font-size: 25px;
+    font-size: 2vw;
     flex: 1;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 800;
@@ -317,8 +317,8 @@ figure figcaption{
 
 /* footer */
 footer{
-    width: 1380px;
-    height: 230px;
+    width: 100vw;
+    height: 18.5vw;
     display: flex;
     flex-direction: column;
     background-color: var(--footer-background);
@@ -344,10 +344,10 @@ footer{
 }
 
 .container-top-footer .text-footer .h3{
-    font-size: 30px;
+    font-size: 2.4vw;
     font-weight: 400;
     font-family: 'Open Sans Condensed', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 0.8vw;
 }
 
 .container-top-footer .text-footer .contato-footer{
@@ -357,13 +357,13 @@ footer{
 }
 
 .container-top-footer .text-footer .contato-footer img{
-    width: 80px;
+    width: 6.4vw;
     transition: 1s;
     cursor: pointer;
 }
 
 .container-top-footer .text-footer .contato-footer img:hover{
-    width: 100px;
+    width: 8vw;
 }
 
 .icons-footer{
@@ -372,10 +372,10 @@ footer{
 }
 
 .icons-footer img{
-    width: 30px;
-    margin-top: 30px;
+    width: 2.4vw;
+    margin-top: 2.4vw;
     border-radius: 9px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 2.4vw;
+    margin-bottom: 2.4vw;
     cursor: pointer;
 }

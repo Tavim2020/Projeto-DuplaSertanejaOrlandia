@@ -29,25 +29,25 @@
 @media only screen and (max-width: 900px){
     body{
         margin: 0 auto;
-        width: 900px;
+        width: 100vw;
     }
     
     main{
-        width: 900px;
+        width: 100vw;
     }
     
     body main .container-top{
-        width: 900px;
-        height: 300px;
+        width: 100vw;
+        height: 24.1vw;
         background-color: var(--footer-background);
     }
     
     .img-header{
-        margin-top: 30px;
+        margin-top: 2.4vw;
     }
     
     .img-header img{
-        width: 150px;
+        width: 12vw;
     }
 
     .hidden{
@@ -60,28 +60,27 @@
     }
     
     .menu-animate{
-        margin-right: 50px;
+        margin-right: 4vw;
         display: flex;
         align-items: center;
     }
     
     
     .violaoIcon img{
-        width: 70px;
+        width: 5.6vw;
     }
     
     
     .menu nav li a{
         color: var(--white);
-        font-size: 32px;
+        font-size: 2.5vw;
         font-family: 'Permanent Marker', cursive;
     }
 
 
     /* container-center */
     .container-center{
-        width: 900px;
-        height: 1950px;
+        width: 100vw;
     }
     
 
@@ -89,8 +88,8 @@
 
     /* footer */
     footer{
-        width: 900px;
-        height: 800px;
+        width: 100vw;
+        height: 64.4vw;
         display: flex;
         flex-direction: column;
         background-color: var(--footer-background);
@@ -118,47 +117,47 @@
     }
 
     .container-top-footer .text-footer .h3{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-bottom: 30px;
+        margin-bottom: 2.4vw;
     }
 
     .container-top-footer .text-footer .container-left .contato-footer{
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 4vw;
     }
 
     .container-top-footer .text-footer .container-left .h3{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-bottom: 30px;
+        margin-bottom: 2.4vw;
     }
 
     .container-top-footer .text-footer .contato-footer h4{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-top: 50px;
+        margin-top: 4vw;
     }
 
 
 
     .container-top-footer .text-footer .container-left .contato-footer img{
-        width: 150px;
+        width: 12vw;
         transition: 1s;
         cursor: pointer;
-        margin-bottom: 50px;
+        margin-bottom: 4vw;
     }
 
     .container-top-footer .text-footer .container-left .contato-footer img:hover{
-        width: 170px;
+        width: 13.6vw;
     }
 
     .icons-footer{
@@ -168,11 +167,11 @@
     }
 
     .icons-footer img{
-        width: 60px;
-        margin-top: 50px;
+        width: 4.8vw;
+        margin-top: 4vw;
         border-radius: 9px;
-        margin-right: 40px;
-        margin-bottom: 50px;
+        margin-right: 3.2vw;
+        margin-bottom: 4vw;
         cursor: pointer;
     }
 

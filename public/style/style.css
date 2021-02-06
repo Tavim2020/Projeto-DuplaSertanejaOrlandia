@@ -15,25 +15,26 @@
 
 body{
     margin: 0 auto;
-    width: 1380px;
+    width: 100vw;
     background-color: #000;
+    overflow-x: hidden;
 }
 
 main{
-    width: 1380px;
+    width: 100vw;
 }
 
 /* header e container da dupla */
 .container-top{
-    width: 1380px;
-    height: 802px;
+    width: 100vw;
+    height: 64vw;
     position: relative;
     overflow: hidden;
 }
 
 .container-top .img-background{
     width: 100%;
-    height: 802px;
+    height: 64vw;
     filter: brightness(30%);
 }
 
@@ -49,11 +50,11 @@ header{
 }
 
 .img-header{
-    margin-top: 15px;
+    margin-top: 1.2vw;
 }
 
 .img-header img{
-    width: 100px;
+    width: 8vw;
 }
 
 
@@ -67,13 +68,13 @@ header{
 }
 
 .menu-animate{
-    margin-right: 40px;
+    margin-right: 3.2vw;
     display: flex;
     align-items: center;
 }
 
 .violaoIcon img{
-    width: 40px;
+    width: 3.2vw;
 }
 
 
@@ -83,7 +84,7 @@ header{
 
 .menu nav li a{
     color: var(--white);
-    font-size: 19px;
+    font-size: 1.5vw;
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -100,8 +101,8 @@ header{
 }
 
 .background-tholy .icons{
-    width: 280px;
-    margin-left: 100px;
+    width: 22vw;
+    margin-left: 8vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,8 +113,8 @@ header{
 }
 
 .background-tholy .icons img{
-    width: 50px;
-    margin-bottom: 40px;
+    width: 4vw;
+    margin-bottom: 3.2vw;
 }
 
 .background-tholy .icons img:nth-child(1){
@@ -128,13 +129,13 @@ header{
     filter: brightness(150%);
 }   
 .background-tholy .image-dupla{
-    width: 500px;
-    height: 450px;
+    width: 40vw;
+    height: 36vw;
     overflow: hidden;
 }
 
 .background-tholy img{
-    width: 500px;
+    width: 40vw;
     filter: brightness(30%);
 }
 
@@ -142,8 +143,8 @@ header{
 /* video */
 
 .media{
-    width: 1380px;
-    height: 500px;
+    width: 100vw;
+    height: 40vw;
     background-image: url(/images/sertanejo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,22 +153,22 @@ header{
 .media .container-video-text{
     margin: 0 auto;
     width: 90%;
-    height: 500px;
+    height: 40vw;
     display: flex;
     align-items: center;
 }
 
 .videoPlayer{
-    width: 700px;
-    height: 450px;
+    width: 56vw;
+    height: 36vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .videoPlayer video{
-    width: 500px;
-    height: 310px;
+    width: 40vw;
+    height: 24v.9w;
     border-radius: 7px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -179,7 +180,7 @@ header{
 
 /* texto ao lado do video */
 .text-video{
-    height: 450px;
+    height: 36vw;
     flex: 1;
     align-items: flex-start;
     justify-content: flex-start;
@@ -187,17 +188,17 @@ header{
 }
 
 .text-video h2{
-    font-size: 35px;
+    font-size: 2.8vw;
     font-weight: 400;
     font-family: 'Open Sans Condensed', sans-serif;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
     text-transform: uppercase;
     text-align: center;
 }
 
 .text-video p{
-    font-size: 27px;
+    font-size: 2.1vw;
     font-weight: 400;
     font-family: 'Open Sans Condensed', sans-serif;
     /* text-transform: capitalize; */
@@ -205,9 +206,9 @@ header{
 }
 
 .text-video h3{
-    font-size: 30px;
+    font-size: 2.4vw;
     font-weight: 400;
-    margin-top: 50px;
+    margin-top: 4vw;
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: capitalize;
     text-align: center;
@@ -219,8 +220,8 @@ header{
 
 /* footer */
 footer{
-    width: 1380px;
-    height: 230px;
+    width: 100vw;
+    height: 18vw;
     display: flex;
     flex-direction: column;
     background-color: var(--footer-background);
@@ -246,7 +247,7 @@ footer{
 }
 
 .container-top-footer .text-footer .h3{
-    font-size: 30px;
+    font-size: 2.4vw;
     font-weight: 400;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 10px;
@@ -259,13 +260,13 @@ footer{
 }
 
 .container-top-footer .text-footer .contato-footer img{
-    width: 80px;
+    width: 6.4vw;
     transition: 1s;
     cursor: pointer;
 }
 
 .container-top-footer .text-footer .contato-footer img:hover{
-    width: 100px;
+    width: 8vw;
 }
 
 .icons-footer{
@@ -274,10 +275,10 @@ footer{
 }
 
 .icons-footer img{
-    width: 30px;
-    margin-top: 30px;
+    width: 2.4vw;
+    margin-top: 2.4vw;
     border-radius: 9px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 2.4vw;
+    margin-bottom: 2.4vw;
     cursor: pointer;
 }
