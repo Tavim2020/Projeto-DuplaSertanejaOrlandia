@@ -153,7 +153,11 @@ function move() {
     requestAnimationFrame(move);
 }
 
-window.addEventListener('load', move);
+if(widthScreen > 900){
+
+    window.addEventListener('load', move);
+
+
 
 backText[6].style.top = '10%';
 backText[6].style.left = '45%';
@@ -216,7 +220,12 @@ setInterval(() => {
 
 }, 1500);
 
+}
+function atualWidth(){
+    widthScreen;
+}
 
+setInterval(atualWidth, 1)
 
 
 

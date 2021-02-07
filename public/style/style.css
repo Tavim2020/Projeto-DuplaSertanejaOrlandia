@@ -16,12 +16,14 @@
 body{
     margin: 0 auto;
     width: 100vw;
-    background-color: #000;
+    max-height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 main{
     width: 100vw;
+    height: 100%;
 }
 
 /* header e container da dupla */

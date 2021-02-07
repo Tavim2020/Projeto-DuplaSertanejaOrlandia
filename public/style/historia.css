@@ -44,7 +44,7 @@ header{
 }
 
 .img-header img{
-    width: 100px;
+    width: 8vw;
     cursor: pointer;
     transition: 1s;
 }
@@ -84,7 +84,7 @@ header{
     font-family: 'Permanent Marker', cursive;
 }
 
-.menu nav .menu-animate:nth-child(1) li a{
+.menu nav .menu-animate:nth-child() li a{
     color: var(--black);
 }
 

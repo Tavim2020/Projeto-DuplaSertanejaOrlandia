@@ -17,17 +17,18 @@
 
 body{
     margin: 0 auto;
-    width: 1380px;
-    max-height: 1360px;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 main{
-    width: 1380px;
+    width: 100vw;
 }
 
 body main .container-top{
-    width: 1380px;
-    height: 200px;
+    width: 100vw;
+    height: 16vw;
     background-color: var(--footer-background);
 }
 
@@ -40,17 +41,17 @@ header{
 }
 
 .img-header{
-    margin-top: 15px;
+    margin-top: 1.2vw;
 }
 
 .img-header img{
-    width: 100px;
+    width: 8vw;
     cursor: pointer;
     transition: 1s;
 }
 
 .img-header img:hover{
-    width: 110px;
+    width: 8.8vw;
 }
 
 
@@ -64,13 +65,13 @@ header{
 }
 
 .menu-animate{
-    margin-right: 40px;
+    margin-right: 3.2vw;
     display: flex;
     align-items: center;
 }
 
 .violaoIcon img{
-    width: 40px;
+    width: 3.2vw;
 }
 
 
@@ -80,7 +81,7 @@ header{
 
 .menu nav li a{
     color: var(--white);
-    font-size: 19px;
+    font-size: 1.5vw;
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -92,8 +93,8 @@ header{
 /* container central */
 
 .container-center{
-    width: 1380px;
-    height: 930px;
+    width: 100vw;
+    height: 74.8vw;
     background-image: url(/images/sertanejo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,16 +106,16 @@ header{
 .head-form{
     margin: 0 auto;
     width: 90%;
-    margin-top: 40px;
+    margin-top: 3.2vw;
     display: flex;
     flex-direction: column;
 }
 
 .head-form h2{
-    font-size: 37px;
+    font-size: 2.9vw;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 3.2vw;
     color: #fff;
 }
 
@@ -127,8 +128,9 @@ header{
 }
 
 form{
-    width: 400px;
-    margin-left: 100px;
+    margin: 0 auto;
+    width: 32.2vw;
+    margin-right: 4vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,7 +139,7 @@ form{
 
 form label{
     width: 100%;
-    font-size: 30px;
+    font-size: 2.4vw;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 10px;
     text-align: center;
@@ -146,36 +148,36 @@ form label{
 
 form input{
     width: 100%;
-    height: 40px;
-    border-radius: 8px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    margin-bottom: 10px;
-    padding: 5px 9px 5px 9px;
-    font-size: 20px;
+    height: 3.2vw;
+    border-radius: 0.6vw;
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    margin-bottom: 0.8vw;
+    padding: 0.4vw 0.7vw 0.4vw 0.7vw;
+    font-size: 1.6vw;
 }
 
 form textarea{
-    margin-top: 30px;
+    margin-top: 2.4vw;
     width: 100%;
-    max-width: 400px;
-    max-height: 150px;
-    min-width: 200px;
-    min-height: 75px;
-    font-size: 20px;
-    line-height: 30px;
-    padding: 5px 9px 5px 9px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    max-width: 32.2vw;
+    max-height: 12vw;
+    min-width: 16.1vw;
+    min-height: 6vw;
+    font-size: 1.6vw;
+    line-height: 2.4vw;
+    padding: 0.4vw 0.7vw 0.4vw 0.7vw;
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
 }
 
 form button{
-    margin-top: 30px;
-    padding: 10px 17px;
+    margin-top: 2.4vw;
+    padding: 0.8vw 1.3vw;
     background-color: var(--red-button);
     transition: 0.5s;
 }
@@ -184,16 +186,16 @@ form button{
 /* imagem ao lado do formulário */
 
 .imagem{
-    width: 700px;
-    height: 600px;
+    width: 56.3vw;
+    height: 48.3vw;
     display: flex;
     align-items: flex-end;
     position: relative;
 }
 
 .background-image{
-    width: 650px;
-    height: 650px;
+    width: 52.3vw;
+    height: 52.3vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -210,8 +212,8 @@ form button{
 }
 
 .imagem .background-image .image-center{
-    width: 600px;   
-    height: 600px;
+    width: 48.3vw;   
+    height: 48.3vw;
     border-radius: 50%;
     position: absolute;
 }
@@ -231,8 +233,8 @@ form button{
 
 /* footer */
 footer{
-    width: 1380px;
-    height: 230px;
+    width: 100vw;
+    height: 18vw;
     display: flex;
     flex-direction: column;
     background-color: var(--footer-background);
@@ -258,7 +260,7 @@ footer{
 }
 
 .container-top-footer .text-footer .h3{
-    font-size: 30px;
+    font-size: 2.4vw;
     font-weight: 400;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 10px;
@@ -271,13 +273,13 @@ footer{
 }
 
 .container-top-footer .text-footer .contato-footer img{
-    width: 80px;
+    width: 6.4vw;
     transition: 1s;
     cursor: pointer;
 }
 
 .container-top-footer .text-footer .contato-footer img:hover{
-    width: 100px;
+    width: 8vw;
 }
 
 .icons-footer{
@@ -286,10 +288,10 @@ footer{
 }
 
 .icons-footer img{
-    width: 30px;
-    margin-top: 30px;
+    width: 2.4vw;
+    margin-top: 2.4vw;
     border-radius: 9px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 2.4vw;
+    margin-bottom: 2.4vw;
     cursor: pointer;
 }

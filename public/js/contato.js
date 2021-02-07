@@ -280,10 +280,16 @@ function disabledFalse(){
         button.style.backgroundColor = '#7BB2D9'
         button.style.color = '#fff';
     }
+
+    else if((nameCheck.value.length < 3) ||  (cidadeCheck.value.length < 3) || (estadoCheck.value.length < 3) || (emailCheck.value.length < 11) || (telefoneCheck.value.length < 11) || (descricaoCheck.value.length < 25)){
+        button.disabled = true;
+        button.style.backgroundColor = '#D64550'
+        button.style.color = '#000';
+    }
 }
 
 
-setInterval(disabledFalse, 1000);
+setInterval(disabledFalse, 10);
 
 
 // efeito da imagem ao lado do form
@@ -464,5 +470,5 @@ iconsFooter[4].addEventListener('click', ()=>{
 var imgFooterRedirect = document.querySelector('#footer-img-logo');
 
 imgFooterRedirect.addEventListener('click', ()=>{
-    window.location.href= 'mailto:#';
+    window.location.href= 'tel:+5516992649045';
 })

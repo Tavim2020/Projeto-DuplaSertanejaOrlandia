@@ -17,18 +17,19 @@
 
 body{
     margin: 0 auto;
-    width: 1380px;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 main{
-    width: 1380px;
+    width: 100vw;
 }
 
 body main .container-top{
-    width: 1380px;
-    height: 200px;
+    width: 100vw;
+    height: 16vw;
     background-color: var(--footer-background);
-    position: relative;
 }
 
 header{
@@ -40,17 +41,17 @@ header{
 }
 
 .img-header{
-    margin-top: 15px;
+    margin-top: 1.2vw;
 }
 
 .img-header img{
-    width: 100px;
+    width: 8vw;
     cursor: pointer;
     transition: 1s;
 }
 
 .img-header img:hover{
-    width: 110px;
+    width: 8.8vw;
 }
 
 
@@ -64,13 +65,13 @@ header{
 }
 
 .menu-animate{
-    margin-right: 40px;
+    margin-right: 3.2vw;
     display: flex;
     align-items: center;
 }
 
 .violaoIcon img{
-    width: 40px;
+    width: 3.2vw;
 }
 
 
@@ -80,7 +81,7 @@ header{
 
 .menu nav li a{
     color: var(--white);
-    font-size: 19px;
+    font-size: 1.5vw;
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -92,8 +93,8 @@ header{
 /* container central */
 
 .container-center{
-    width: 1380px;
-    height: 1730px;
+    width:  100vw;
+    height: 139vw;
     background-image: url(/images/sertanejo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +112,7 @@ header{
 }
 
 .one-text{
-    font-size: 50px;
+    font-size: 4vw;
     top: 1.4%;
     font-family: 'Hachi Maru Pop', cursive;
     color: #fff;
@@ -119,8 +120,8 @@ header{
 }
 
 .two-text{
-    width: 203px;
-    font-size: 35px;
+    width: 16.3vw;
+    font-size: 2.8vw;
     top: 30%;
     font-family: 'Hanalei', cursive;
     color: #fff;
@@ -128,7 +129,7 @@ header{
 
 
 .tree-text{
-    font-size: 25px;
+    font-size: 2vw;
     top: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #fff;
@@ -136,22 +137,22 @@ header{
 }
 
 .four-text{
-    width: 300px;
-    font-size: 55px;
+    width: 24.1vw;
+    font-size: 4.4vw;
     top: 88%;
     font-family: 'Sacramento', cursive;
     color: #fff;
 }
 
 .five-text{
-    font-size: 38px;
+    font-size: 3vw;
     top: 10%;
     font-family: 'Dancing Script', cursive;
     color: #fff;
 }
 
 .six-text{
-    font-size: 44px;
+    font-size: 3.5vw;
     right: 10%;
     font-family: 'Hachi Maru Pop', cursive;
     color: #fff;
@@ -159,14 +160,14 @@ header{
 }
 
 .seven-text{
-    font-size: 25px;
+    font-size: 2vw;
     font-family: 'Hanalei', cursive;
     color: #fff;
 }
 
 .eight-text{
-    width: 200px;
-    font-size: 15px;
+    width: 16.1vw;
+    font-size: 1.2vw;
     top: 60%;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #fff;
@@ -185,24 +186,24 @@ header{
 
 .galeria h2{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 47px;
+    font-size: 3.7vw;
     font-weight: 400;
-    letter-spacing: 2px;
-    margin-top: 50px;
-    margin-bottom: 15px;
+    letter-spacing: 0.16vw;
+    margin-top: 4vw;
+    margin-bottom: 1.2vw;
 }
 
 .galeria h3{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 35px;
+    font-size: 2.8vw;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 4vw;
     color: #575252;
 }
 
 .fotos{
     width: 100%;
-    height: 1200px;
+    height: 96.6vw;
     background-image: url(/images/quadros.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -218,119 +219,132 @@ header{
 }
 
 #one{
-    width: 273px;
-    height: 194px;
-    position: absolute;
-    top: 1.05%;
+    width: 19.708vw;
+    height: 14.2vw;
+    top: 1%;
     left: 38.1%;
-}
-#two{
-    width: 153.2px;
-    height: 217.5px;
     position: absolute;
-    top: 35.9%;
-    left: 0.67%;
+    z-index: 4;
+}
+
+#two{
+    width: 11.15vw;
+    height: 15.8vw;
+    top: 32.3%;
+    position: absolute;
+    left: 0.65%;
     object-fit: cover;
     object-position: 40%;
+    z-index: 4;
 }
 
 #tree{
-    width: 254.6px;
-    height: 369.25px;
+    width: 18.4vw;
+    height: 26.8vw;
+    top: 19.7%;
+    left: 38.72%;
     position: absolute;
-    top: 21.955%;
-    left: 38.8%;
+    z-index: 4;
 }
 
 #four{
-    width: 276.38px;
-    height: 192.8px;
-    position: absolute;
-    top: 57.57%;
+    width: 20vw;
+    height: 14.25vw;
+    top: 51.6%;
     left: 37.75%;
+    position: absolute;
+    z-index: 4;
 }
 
 #five{
-    width: 153.19px;
-    height: 216px;
+    width: 11.1vw;
+    height: 15.75vw;
+    top: 32.3%;
+    left: 86.8%;
     position: absolute;
-    top: 35.9%;
-    left: 86.85%;
     object-fit: cover;
     object-position: 40%;
+    z-index: 4;
 }
 
 #six{
-    width: 193.7px;
-    height: 272.79px;
+    width: 14.03vw;
+    height: 19.8vw;
+    top: 30.555%;
+    left: 18.35%;
     position: absolute;
     object-fit: cover;
-    top: 33.955%;
-    left: 18.4%;
+    z-index: 4;
 }
 
 #seven{
-    width: 220.8px;
-    height: 154.5px;
+    width: 15.92vw;
+    height: 11.2vw;
+    top: 69.8%;
+    left: 40.01%;
     position: absolute;
     object-fit: cover;
-    top: 77.5%;
-    left: 40%;
+    z-index: 4;
 }
 
 #eight{
-    width: 150.25px;
-    height: 216px;
+    width: 10.9vw;
+    height: 15.59vw;
+    top: 9.1%;
+    left: 66.79%;
     position: absolute;
-    top: 10.04%;
-    left: 66.8%;
     object-fit: cover;
     object-position: 40%;
+    z-index: 4;
 }
 
 #nine{
-    width: 191.5px;
-    height: 272.79px;
+    width: 13.8vw;
+    height: 19.8vw;
+    top: 30.47%;
+    left: 65.25%;
     position: absolute;
     object-fit: cover;
-    top: 33.89%;
-    left: 65.25%;
+    z-index: 4;
 }
 
 #ten{
-    width: 153.8px;
-    height: 217.7px;
+    width: 11.2vw;
+    height: 15.8vw;
+    top: 10.13%;
+    left: 19.98%;
     position: absolute;
     object-fit: cover;
-    top: 11.2%;
-    left: 19.98%;
+    z-index: 4;
 }
 
 #eleven{
-    width: 153.45px;
-    height: 214.7px;
+    width: 11.2vw;
+    height: 15.54vw;
+    top: 55.56%;
+    left: 66.55%;
     position: absolute;
-    top: 61.75%;
-    left: 66.539%;
     object-fit: cover;
     object-position: 40%;
+    z-index: 4;
 }
 
 #twelve{
-    width: 148.3px;
-    height: 216.9px;
+    width: 10.7vw;
+    height: 15.69vw;
+    top: 54.43%;
+    left: 20.35%;
     position: absolute;
     object-fit: cover;
-    top: 60.47%;
-    left: 20.4%;
+    z-index: 4;
 }
 
 
 
 /* footer */
 footer{
-    width: 1380px;
-    height: 230px;
+    width: 100vw;
+    height: 18vw;
     display: flex;
     flex-direction: column;
     background-color: var(--footer-background);
@@ -356,7 +370,7 @@ footer{
 }
 
 .container-top-footer .text-footer .h3{
-    font-size: 30px;
+    font-size: 2.4vw;
     font-weight: 400;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 10px;
@@ -369,13 +383,13 @@ footer{
 }
 
 .container-top-footer .text-footer .contato-footer img{
-    width: 80px;
+    width: 6.4vw;
     transition: 1s;
     cursor: pointer;
 }
 
 .container-top-footer .text-footer .contato-footer img:hover{
-    width: 100px;
+    width: 8vw;
 }
 
 .icons-footer{
@@ -384,11 +398,10 @@ footer{
 }
 
 .icons-footer img{
-    width: 30px;
-    margin-top: 30px;
+    width: 2.4vw;
+    margin-top: 2.4vw;
     border-radius: 9px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 2.4vw;
+    margin-bottom: 2.4vw;
     cursor: pointer;
 }
-
