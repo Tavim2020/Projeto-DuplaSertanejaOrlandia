@@ -18,25 +18,26 @@
 
     body{
         margin: 0 auto;
-        width: 900px;
+        width: 100vw;
+        height: 100%;
     }
     
     main{
-        width: 900px;
+        width: 100vw;
     }
     
     body main .container-top{
-        width: 900px;
-        height: 300px;
+        width: 100vw;
+        height: 24.1VW;
         background-color: var(--footer-background);
     }
     
     .img-header{
-        margin-top: 30px;
+        margin-top: 2.4VW;
     }
     
     .img-header img{
-        width: 150px;
+        width: 12vw;
     }
 
     .hidden{
@@ -49,28 +50,28 @@
     }
     
     .menu-animate{
-        margin-right: 50px;
+        margin-right: 4vw;
         display: flex;
         align-items: center;
     }
     
     
     .violaoIcon img{
-        width: 70px;
+        width: 5.6vw;
     }
     
     
     .menu nav li a{
         color: var(--white);
-        font-size: 32px;
+        font-size: 2.5vw;
         font-family: 'Permanent Marker', cursive;
     }
 
     /* container central */
 
     .container-center{
-        width: 900px;
-        height: 2100px;
+        width: 100vw;
+        height: 169vw;
         background-image: url(/images/sertanejo.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -83,18 +84,18 @@
     .head-form{
         margin: 0 auto;
         width: 90%;
-        margin-top: 40px;
+        margin-top: 3.2vw;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
     .head-form h2{
-        font-size: 67px;
+        font-size: 5.3vw;
         text-align: center;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 400;
-        margin-bottom: 100px;
+        margin-bottom: 8vw;
         color: #fff;
     }
     
@@ -117,51 +118,51 @@
     
     form label{
         width: 100%;
-        font-size: 60px;
+        font-size: 4.8vw;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-bottom: 10px;
+        margin-bottom: 0.8vw;
         text-align: center;
         color: #fff;
     }
     
     form input{
         width: 100%;
-        height: 90px;
-        border-radius: 8px;
-        border-top-left-radius: 7px;
-        border-top-right-radius: 7px;
-        border-bottom-left-radius: 7px;
-        border-bottom-right-radius: 7px;
-        margin-bottom: 30px;
-        padding: 5px 14px 5px 14px;
-        font-size: 50px;
+        height: 7.2vw;
+        border-radius: 0.6vw;
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+        margin-bottom: 2.4vw;
+        padding: 0.4vw 1.12vw 0.4vw 1.12vw;
+        font-size: 4vw;
     }
     
     form textarea{
-        margin-top: 30px;
+        margin-top: 2.4vw;
         width: 100%;
         max-width: 100%;
-        max-height: 400px;
-        min-width: 500px;
-        min-height: 300px;
-        font-size: 60px;
-        line-height: 80px;
-        padding: 5px 14px 5px 14px;
-        border-top-left-radius: 7px;
-        border-top-right-radius: 7px;
-        border-bottom-left-radius: 7px;
-        border-bottom-right-radius: 7px;
+        max-height: 32.2vw;
+        min-width: 40vw;
+        min-height: 24vw;
+        font-size: 4.8vw;
+        line-height: 6.4vw;
+        padding: 0.4vw 1.12vw 0.4vw 1.12vw;
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
     }
     
     form button{
-        width: 400px;
-        height: 100px;
-        margin-top: 100px;
-        font-size: 45px;
+        width: 32vw;
+        height: 8vw;
+        margin-top: 8vw;
+        font-size: 3.6vw;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px 47px;
+        padding: 2.4vw 3.7vw;
         background-color: var(--red-button);
         transition: 0.5s;
     }
@@ -177,8 +178,8 @@
 
      /* footer */
      footer{
-        width: 900px;
-        height: 800px;
+        width: 100vw;
+        height: 64.4vw;
         display: flex;
         flex-direction: column;
         background-color: var(--footer-background);
@@ -206,47 +207,47 @@
     }
 
     .container-top-footer .text-footer .h3{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-bottom: 30px;
+        margin-bottom: 2.4vw;
     }
 
     .container-top-footer .text-footer .container-left .contato-footer{
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 4vw;
     }
 
     .container-top-footer .text-footer .container-left .h3{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-bottom: 30px;
+        margin-bottom: 2.4vw;
     }
 
     .container-top-footer .text-footer .contato-footer h4{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-top: 50px;
+        margin-top: 4vw;
     }
 
 
 
     .container-top-footer .text-footer .container-left .contato-footer img{
-        width: 150px;
+        width: 12vw;
         transition: 1s;
         cursor: pointer;
-        margin-bottom: 50px;
+        margin-bottom: 4vw;
     }
 
     .container-top-footer .text-footer .container-left .contato-footer img:hover{
-        width: 170px;
+        width: 13.6vw;
     }
 
     .icons-footer{
@@ -256,11 +257,11 @@
     }
 
     .icons-footer img{
-        width: 60px;
-        margin-top: 50px;
-        border-radius: 9px;
-        margin-right: 40px;
-        margin-bottom: 50px;
+        width: 4.8vw;
+        margin-top: 4vw;
+        border-radius: 0.7vw;
+        margin-right: 3.2vw;
+        margin-bottom: 4vw;
         cursor: pointer;
     }
 

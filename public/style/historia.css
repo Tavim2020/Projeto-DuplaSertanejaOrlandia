@@ -84,7 +84,7 @@ header{
     font-family: 'Permanent Marker', cursive;
 }
 
-.menu nav .menu-animate:nth-child() li a{
+.menu nav .menu-animate:nth-child(1) li a{
     color: var(--black);
 }
 
