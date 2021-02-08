@@ -38,6 +38,7 @@ server.post('/sendMail', urlencodedParser, (req,res) =>{
     // configurando o nodemailer
     // transport 
     const transporter = nodeMailder.createTransport({
+        service: "gmail",
         host: smtp.host,
         port: smtp.port,
         secure: false,
@@ -52,13 +53,13 @@ server.post('/sendMail', urlencodedParser, (req,res) =>{
         from: config.from,
         to: config.to,
         subject: 'E-mail com sucesso!',
-        text: `Contato do Cliente = 
-                nome = ${name}
-                email = ${email}
-                telefone = ${telefone}
-                cidade = ${cidade}
-                estado = ${estado}
-                descrição = ${descricao}`
+        html: `<h2>Contato do Cliente =</h2>
+                <h3>nome = ${name}</h3>
+                <h3>email = ${email}</h3>
+                <h3>telefone = ${telefone}</h3>
+                <h3>cidade = ${cidade}</h3>
+                <h3>estado = ${estado}</h3>
+                <h3>descrição = ${descricao}</h3>`
     
 }).then(message => {
     console.log(message);

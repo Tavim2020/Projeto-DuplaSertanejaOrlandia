@@ -227,9 +227,7 @@ form button{
     transition: 2s;
 }
 
-.imagem .background-image .image-center img:hover{
-   transform: rotateX(90deg);
-}
+
 
 /* footer */
 footer{
