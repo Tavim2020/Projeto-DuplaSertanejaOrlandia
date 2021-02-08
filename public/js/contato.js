@@ -45,6 +45,14 @@ animationMenu[2].addEventListener('mouseout', ()=>{
 
  var button = document.querySelector('#button');
 
+ nameCheck.setAttribute('maxlength', '15');
+ cidadeCheck.setAttribute('maxlength', '45');
+ estadoCheck.setAttribute('maxlength', '45');
+ emailCheck.setAttribute('maxlength', '55');
+ telefoneCheck.setAttribute('maxlength', '11');
+ descricaoCheck.setAttribute('maxlength', '350');
+ 
+
 
 
 function validation(){
@@ -59,7 +67,7 @@ function validation(){
     var telefone = form.telefone;
     
     var descricao = form.textArea;
-
+    
 
     if(name.value === ""){
 
