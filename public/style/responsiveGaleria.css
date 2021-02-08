@@ -70,7 +70,7 @@
     
     .container-center{
         width: 100vw;
-        height: 640vw;
+        height: 100%;
         background-image: url(/images/sertanejo.jpg);
         background-repeat: repeat;
         background-size: auto;
@@ -180,7 +180,7 @@
     .fotos{
         margin: 0 auto;
         width: 100%;
-        height: 579vw;
+        height: 100%;
         display: flex;
         background-image: none;
         flex-direction: column;
@@ -211,8 +211,8 @@
     
     #one{
         position: absolute;
-        top: 3.10%;
-        left: 21.48%;
+        top: 3.065%;
+        left: 21.47%;
         z-index: 4;
         width: 51.2vw;
         height: 32.6vw;  
@@ -222,8 +222,8 @@
         width: 51.2vw;
         height: 32.59vw;   
         position: absolute;
-        top: 11.50%;
-        left: 21.48%;
+        top: 11.22%;
+        left: 21.47%;
         object-fit: cover;
         object-position: 40%;
         z-index: 4;
@@ -233,8 +233,8 @@
         width: 51.2vw;
         height: 32.6vw;  
         position: absolute;
-        top: 19.855%;
-        left: 21.48%;
+        top: 19.4%;
+        left: 21.47%;
         object-fit: cover;
         object-position: top;
         z-index: 4;
@@ -244,8 +244,8 @@
         width: 51.2vw;
         height: 32.6vw;  
         position: absolute;
-        top: 28.2%;
-        left: 21.48%;
+        top: 27.55%;
+        left: 21.47%;
         z-index: 4;
     }
     
@@ -253,8 +253,8 @@
         width: 51.2vw;
         height: 32.6vw;  
         position: absolute;
-        top: 36.56%;
-        left: 21.48%;
+        top: 35.72%;
+        left: 21.47%;
         object-fit: cover;
         object-position: 40%;
         z-index: 4;
@@ -265,8 +265,8 @@
         height: 32.6vw;  
         position: absolute;
         object-fit: cover;
-        top: 44.91%;
-        left: 21.48%;
+        top: 43.88%;
+        left: 21.47%;
         object-fit: cover;
         object-position: top;
         z-index: 4;
@@ -277,8 +277,8 @@
         height: 32.6vw;  
         position: absolute;
         object-fit: cover;
-        top: 53.295%;
-        left: 21.48%;
+        top: 52.05%;
+        left: 21.47%;
         z-index: 4;
     }
     
@@ -286,8 +286,8 @@
         width: 51.2vw;
         height: 32.6vw;  
         position: absolute;
-        top: 61.645%;
-        left: 21.48%;
+        top: 60.21%;
+        left: 21.47%;
         object-fit: cover;
         object-position: 40%;
         z-index: 4;
@@ -298,8 +298,8 @@
         height: 32.6vw;  
         position: absolute;
         object-fit: cover;
-        top: 70%;
-        left: 21.48%;
+        top: 68.38%;
+        left: 21.47%;
         object-fit: cover;
         object-position: top;
         z-index: 4;
@@ -310,8 +310,8 @@
         height: 32.6vw;  
         position: absolute;
         object-fit: cover;
-        top: 78.39%;
-        left: 21.48%;
+        top: 76.55%;
+        left: 21.47%;
         z-index: 4;
     }
     
@@ -319,8 +319,8 @@
         width: 51.2vw;
         height: 32.6vw;  
         position: absolute;
-        top: 86.73%;
-        left: 21.48%;
+        top: 84.715%;
+        left: 21.47%;
         object-fit: cover;
         object-position: 40%;
         z-index: 4;
@@ -331,8 +331,8 @@
         height: 32.6vw;  
         position: absolute;
         object-fit: cover;
-        top: 95.09%;
-        left: 21.48%;
+        top: 92.88%;
+        left: 21.47%;
         object-fit: cover;
         object-position: top;
         z-index: 4;
@@ -344,8 +344,8 @@
 
     /* footer */
     footer{
-        width: 900px;
-        height: 800px;
+        width: 100vw;
+        height: 64.4vw;
         display: flex;
         flex-direction: column;
         background-color: var(--footer-background);
@@ -373,47 +373,47 @@
     }
 
     .container-top-footer .text-footer .h3{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-bottom: 30px;
+        margin-bottom: 2.4vw;
     }
 
     .container-top-footer .text-footer .container-left .contato-footer{
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 4vw;
     }
 
     .container-top-footer .text-footer .container-left .h3{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-bottom: 30px;
+        margin-bottom: 2.4vw;
     }
 
     .container-top-footer .text-footer .contato-footer h4{
-        font-size: 42px;
+        font-size: 3.3vw;
         text-align: center;
         font-weight: 400;
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-top: 50px;
+        margin-top: 4vw;
     }
 
 
 
     .container-top-footer .text-footer .container-left .contato-footer img{
-        width: 150px;
+        width: 12vw;
         transition: 1s;
         cursor: pointer;
-        margin-bottom: 50px;
+        margin-bottom: 4vw;
     }
 
     .container-top-footer .text-footer .container-left .contato-footer img:hover{
-        width: 170px;
+        width: 13.6vw;
     }
 
     .icons-footer{
@@ -423,11 +423,11 @@
     }
 
     .icons-footer img{
-        width: 60px;
-        margin-top: 50px;
-        border-radius: 9px;
-        margin-right: 40px;
-        margin-bottom: 50px;
+        width: 4.8vw;
+        margin-top: 4vw;
+        border-radius: 0.7vw;
+        margin-right: 3.2vw;
+        margin-bottom: 4vw;
         cursor: pointer;
     }
 
